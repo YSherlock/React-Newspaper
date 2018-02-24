@@ -1,0 +1,70 @@
+.logo{
+  align-items: center;
+  display: flex;
+}
+
+.logo img{
+  width:48px;
+  height:48px;
+}
+
+.logo span{
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.leftContainer{
+  width:400px;
+  float:left;
+  margin-right: 20px;
+}
+
+.carousel{
+  width:400px;
+  float:left;
+}
+
+.tabs_news{
+  width: 370px;
+  height: 705px;
+  float:left;
+}
+
+.imageblock{
+  width: 80px;
+  float: left;
+  margin-right: 35px;
+}
+
+/* .imageblock:nth-child(3n+3){
+  width: 80px;
+  float: left;
+  margin-right: 0;
+} */
+
+.topNewsList{
+  float: left;
+  /* margin-top: 10px; */
+  width: 100%;
+}
+
+.custom-card h3{
+  font-size: 14px;
+}
+
+.custom-card p{
+  font-size: 12px;
+}
+
+.topNewsList ul{
+  padding: 0;
+}
+
+.topNewsList ul li{
+  /* list-style-type: none; */
+  margin-bottom: 10px;
+}

@@ -1,0 +1,82 @@
+html{
+  font-size:50px;
+}
+
+#mobileheader{
+  flex:1;
+  background:#f6f6f6;
+}
+
+#mobileheader header{
+  border-bottom: 1px solid #2db7f5;
+  padding-left: 10px;
+}
+
+#mobileheader header img{
+  height:50px;
+}
+
+#mobileheader header span{
+  font-size:35px;
+  vertical-align: top;
+  padding-left: 10px;
+  color: #2db7f5;
+}
+
+#mobileheader i{
+  font-size: 0.5rem;
+  float:right;
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+  color: #2db7f5;
+}
+
+.m_artical{
+  height: 120px;
+  overflow: hidden;
+}
+
+.m_artical_img{
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.m_artical_img img{
+  width:100px;
+  height: 100px;
+}
+
+.m_artical_info{
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.m_artical_title{
+  height:80px;
+}
+
+.m_artical_title span{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.m_artical_desc_l span{
+  font-size: 13px;
+}
+
+.m_artical_desc_l span:nth-child(1){
+  float: left;
+  display: block;
+  background: #f4e7e7;
+  color: #ff0000bf;
+  padding: 4px;
+}
+
+.m_artical_desc_l span:nth-child(2){
+  float: right;
+  margin-right: 10px;
+}
